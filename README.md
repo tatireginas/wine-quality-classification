@@ -304,10 +304,14 @@ WineQT.csv
 ## 👥 Equipe
 
 Grupo 7:
-Camila de Oliveira - RM 371409
-Lucas Zucoloto Soares Valbusa - RM 373425
-Luysa Brito de Paiva Lima - RM 373813
-Tatiana Regina da Silva  - RM 373518
+Camila de Oliveira - RM 371409;
+
+Lucas Zucoloto Soares Valbusa - RM 373425;
+
+Luysa Brito de Paiva Lima - RM 373813;
+
+Tatiana Regina da Silva  - RM 373518;
+
 Vanessa Gomes Cardoso - RM 373426
 
 
