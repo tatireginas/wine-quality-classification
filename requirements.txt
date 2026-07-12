@@ -1,0 +1,30 @@
+# Wine Quality Classification — POSTECH Tech Challenge Fase 2
+# Instalar com: pip install -r requirements.txt
+
+# Manipulação de dados
+pandas==3.0.2
+numpy==2.4.4
+
+# Visualização
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.8.0
+xgboost==3.3.0
+imbalanced-learn==0.14.2
+
+# Notebook
+jupyter
+ipykernel
+
+
+#Executar a instalação das bibliotecas no notebook com: os comandos abaixo:
+%pip install pandas
+%pip install pyspark
+%pip install numpy
+%pip install matplotlib
+%pip install seaborn
+%pip install scikit-learn
+%pip install xgboost
+%pip install imbalanced-learn
