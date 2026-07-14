@@ -1,30 +1,32 @@
 # Wine Quality Classification — POSTECH Tech Challenge Fase 2
 # Instalar com: pip install -r requirements.txt
+#
+# Notebook: Tech_Challenge_02_VERSAO_FINAL.ipynb (71 células — 8 seções)
+# Última atualização: compatível com Python 3.9+
 
-# Manipulação de dados
+# ── Manipulação de dados ─────────────────────────────────────────
 pandas==3.0.2
 numpy==2.4.4
 
-# Visualização
+# ── Visualização ─────────────────────────────────────────────────
+# Paleta wine (#6D1A36) usada em todos os gráficos — idêntica à apresentação executiva
 matplotlib==3.10.8
 seaborn==0.13.2
 
-# Machine Learning
+# ── Machine Learning ─────────────────────────────────────────────
 scikit-learn==1.8.0
 xgboost==3.3.0
+
+# ── Balanceamento de classes ─────────────────────────────────────
+# Seção 4: SMOTE | Seção 8.4: SMOTETomek e ADASYN
 imbalanced-learn==0.14.2
 
-# Notebook
+# ── Carga do dataset via Kaggle API ──────────────────────────────
+# Seção 2: kagglehub.load_dataset() com fallback automático para data/WineQT.csv
+# Requer: ~/.kaggle/kaggle.json ou KAGGLE_USERNAME/KAGGLE_KEY
+# Sem credenciais: o notebook usa o arquivo local automaticamente
+kagglehub
+
+# ── Ambiente de notebook ─────────────────────────────────────────
 jupyter
 ipykernel
-
-
-#Executar a instalação das bibliotecas no notebook com: os comandos abaixo:
-%pip install pandas
-%pip install pyspark
-%pip install numpy
-%pip install matplotlib
-%pip install seaborn
-%pip install scikit-learn
-%pip install xgboost
-%pip install imbalanced-learn
